@@ -31,6 +31,7 @@ git reset --hard HEAD~1//回退到上上一个版本
 git reset --hard 版本编号//回退到指定版本
 //添加分支
 git branch 分支名
+            添加完分支更改完成后要commit一次
 //切换分支
 git checkout 分支名
 //合并分支
