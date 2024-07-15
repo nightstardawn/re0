@@ -36,3 +36,10 @@ git branch 分支名
 git checkout 分支名
 //合并分支
 git merge 分支名
+
+//克隆仓库
+git clone 仓库地址 . //将仓库中的地址克隆到当前文件夹下
+//获取远程仓库的更新
+git fetch upstream
+//将远程仓库的更新拉取到本地
+git merge upstream/main
