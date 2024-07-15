@@ -1,4 +1,4 @@
-v0.2
+v0.3
 //设置git的用户名和邮箱
 git config --global user.name "nightstardawn"
 git config --global user.email "1321665118@qq.com"
