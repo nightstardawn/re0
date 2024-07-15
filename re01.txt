@@ -7,3 +7,8 @@ git init
 //添加文件
 git add re01.txt//添加指定文件
 git add . //添加该文件夹下的所有文件
+//提交
+git commit //进入vim编辑器
+            按a键进入编辑模式，输入提交信息
+            按esc键退出编辑模式，输入:wq保存并退出
+
