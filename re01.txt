@@ -1,0 +1,9 @@
+v0.1
+//设置git的用户名和邮箱
+git config --global user.name "nightstardawn"
+git config --global user.email "1321665118@qq.com"
+//初始化
+git init 
+//添加文件
+git add re01.txt//添加指定文件
+git add . //添加该文件夹下的所有文件
