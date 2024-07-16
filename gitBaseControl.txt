@@ -43,3 +43,7 @@ git clone 仓库地址 . //将仓库中的地址克隆到当前文件夹下
 git fetch upstream
 //将远程仓库的更新拉取到本地
 git merge upstream/main
+//将本地仓库的更新推送到远程仓库
+git push origin main
+//将远程仓库的更新拉取到本地
+git pull origin main
