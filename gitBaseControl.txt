@@ -1,4 +1,8 @@
 v0.3
+————————————————————教程———————————————————
+环境配置：https://www.bilibili.com/video/BV1k34y1Y7xk/?spm_id_from=333.1007.top_right_bar_window_history.content.click
+git和github简易教程：https://www.bilibili.com/video/BV1s3411g7PS/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=49e986340caab1adb676ad93acb411f6
+git学习练习网址：https://learngitbranching.js.org/?locale=zh_CN
 ——————————————————设置git——————————————————
 //设置git的用户名和邮箱
 git config --global user.name "nightstardawn"
