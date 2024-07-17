@@ -45,8 +45,6 @@ git checkout <分支名>
 git checkout -b <分支名>
 //删除本地分支
 git branch -d <分支名>
-//切换分支
-git checkout <分支名>
 //合并分支
 git merge <分支名>
 //推送本地分支到github
@@ -57,7 +55,7 @@ git push <库名> --all
 //删除远程分支
 git push <库名> -d <分支名>
 
-
+——————————————拉取远程仓库————————
 //克隆仓库
 git clone <仓库url> . //将仓库中的地址克隆到当前文件夹下
 //获取远程仓库的更新
