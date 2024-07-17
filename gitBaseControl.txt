@@ -30,17 +30,17 @@ git reset --hard HEAD^//回退到上一个版本
 git reset --hard HEAD~1//回退到上上一个版本
 git reset --hard 版本编号//回退到指定版本
 //添加分支
-git branch 分支名
+git branch <分支名>
             添加完分支更改完成后要commit一次
 //切换分支
-git checkout 分支名
+git checkout <分支名>
 //合并分支
-git merge 分支名
+git merge <分支名>
 
 //克隆仓库
-git clone 仓库地址 . //将仓库中的地址克隆到当前文件夹下
+git clone <仓库url> . //将仓库中的地址克隆到当前文件夹下
 //获取远程仓库的更新
-git fetch upstream
+git fetch <库名>
 //列出当前的关联的远程库
 git remote -v
 //关联远程仓库
