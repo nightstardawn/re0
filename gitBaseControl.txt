@@ -36,6 +36,11 @@ git branch <分支名>
 git checkout <分支名>
 //合并分支
 git merge <分支名>
+//推送本地分支到github
+git push <库名> <分支名>
+git push <库名> --all
+//github中设置默认分支
+    Settings->Branches->Default branch->设置默认分支
 
 //克隆仓库
 git clone <仓库url> . //将仓库中的地址克隆到当前文件夹下
