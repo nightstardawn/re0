@@ -73,6 +73,8 @@ git remote remove <远程库名>
 //向远程库推送代码，并和当前分支关联  
 git push -u <远程库名> <分支名> 
 git push <远程库> <本地分支>:<远程分支>
+//关闭一个PR
+git commit --allow-empty -m "Close#4"
 
 git push #如果本地的版本低于远程库，push默认是推不上去
 git fetch #要想推送成功，必须先确保本地库和远程库的版本一致，fetch它会从远程仓库下载所有代码，但是它不会将代码和当前分支自动合并
