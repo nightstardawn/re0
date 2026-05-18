@@ -423,6 +423,18 @@ UIModule 是一个**控件容器**，负责：
 1. 通过 `AutoBindComponents()` 自动绑定子控件引用
 2. 对外暴露 public 方法供宿主 Window 调用（刷新 UI、业务逻辑等）
 
+举个栗子：
+![图片1.jpg](Img%2F%E5%9B%BE%E7%89%871.jpg)
+
+简单理解:  
+- Window 是一个大容器，负责整体生命周期和层级管理
+- Module 是 Window 的子容器，负责局部功能和 UI 逻辑
+
+面板只是拥有这个module对象，面板只负责调用，但是module里面的方法，具体是怎么渲染的，面板不管    
+也就是说moudule是个公用代码模块,UI传参数给moudule然后调用对应方法,moudule就能给结果,moudule的主要目的就是省代码  
+还有一个目的是为了复用，类似于预制体  
+
+
 ### 创建 Module
 
 继承 `UIModule`，挂在窗口 Prefab 的子节点上：
